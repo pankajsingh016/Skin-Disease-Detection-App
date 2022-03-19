@@ -1,0 +1,6 @@
+0 Acne
+1 Psoriasis
+2 Chickenpox
+3 Blister
+4 Melanoma
+5 Eczema
