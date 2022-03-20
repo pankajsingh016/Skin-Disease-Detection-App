@@ -128,6 +128,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  gallery:
+    dependency: "direct main"
+    description:
+      name: gallery
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.0.1"
   google_fonts:
     dependency: "direct main"
     description:
@@ -384,7 +391,7 @@ packages:
       name: win32
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.4.1"
+    version: "2.4.2"
   xdg_directories:
     dependency: transitive
     description:

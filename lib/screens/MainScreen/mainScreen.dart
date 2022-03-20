@@ -1,6 +1,8 @@
+// ignore: file_names
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:skin_disease_detection/navigationDrawer/navigatorDrawer.dart';
+import '../../Components/CustomButton.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({Key? key}) : super(key: key);
@@ -55,49 +57,7 @@ class _MainScreenState extends State<MainScreen> {
       ),
     );
   }
-
-  void onPressed() {}
 }
 
-class CustomButton extends StatelessWidget {
-  const CustomButton({
-    Key? key,
-    required this.tex,
-    required this.col,
-    required this.option,
-  }) : super(key: key);
-  final String tex;
-  final Color col;
-  final String option;
+//---------------------------------------------------------------------
 
-  @override
-  Widget build(BuildContext context) {
-    return ElevatedButton(
-      onPressed: () {
-        if(option=="Camera"){
-            //call for camera method to pick image
-            
-        }
-        else if(option=="Gallery")
-        {
-          //call for gallery method to pick image
-
-        }
-      },
-      child: Text(
-        tex,
-        style: const TextStyle(fontSize: 24),
-      ),
-      style: ButtonStyle(
-        minimumSize: MaterialStateProperty.all(Size(
-            MediaQuery.of(context).size.width * 0.7,
-            MediaQuery.of(context).size.height * 0.1)),
-        backgroundColor: MaterialStateProperty.all<Color>(col),
-        shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-            RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(28),
-        )),
-      ),
-    );
-  }
-}
