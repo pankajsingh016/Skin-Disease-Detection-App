@@ -47,7 +47,9 @@ class _ResultState extends State<Result> {
         imageMean: 127.5,
         imageStd: 127.5,
       );
-    } catch (e) {}
+    } catch (e) {
+      // ignored, really.
+    }
     setState(() {});
   }
 
