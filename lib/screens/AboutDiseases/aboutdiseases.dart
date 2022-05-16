@@ -28,7 +28,7 @@ class _AboutDiseaseState extends State<AboutDisease> {
               ListTile(
                 leading: const Icon(Icons.assignment_rounded),
                 title: const Text("Blisters"),
-                subtitle: const Text("one"),
+                subtitle: const Text("A blister is a pocket of fluid...."),
                 onTap: () => Navigator.push(context,
                     MaterialPageRoute(builder: (context) => const Blister())),
                 trailing: const Icon(Icons.arrow_forward_ios),
@@ -36,7 +36,8 @@ class _AboutDiseaseState extends State<AboutDisease> {
               ListTile(
                 leading: const Icon(Icons.assignment_rounded),
                 title: const Text("Acne"),
-                subtitle: const Text("two"),
+                subtitle:
+                    const Text("Acne is a very common skin condition ...."),
                 onTap: () => Navigator.push(context,
                     MaterialPageRoute(builder: (context) => const Acne())),
                 trailing: const Icon(Icons.arrow_forward_ios),
@@ -44,7 +45,8 @@ class _AboutDiseaseState extends State<AboutDisease> {
               ListTile(
                 leading: const Icon(Icons.assignment_rounded),
                 title: const Text("Chickenpox"),
-                subtitle: const Text("three"),
+                subtitle:
+                    const Text("Chickenpox is an infection that causes...."),
                 onTap: () => Navigator.push(
                     context,
                     MaterialPageRoute(
@@ -54,7 +56,7 @@ class _AboutDiseaseState extends State<AboutDisease> {
               ListTile(
                 leading: const Icon(Icons.assignment_rounded),
                 title: const Text("Eczema"),
-                subtitle: const Text("four"),
+                subtitle: const Text("Eczema is a group of conditions ....."),
                 onTap: () => Navigator.push(context,
                     MaterialPageRoute(builder: (context) => const Eczema())),
                 trailing: const Icon(Icons.arrow_forward_ios),
@@ -62,7 +64,7 @@ class _AboutDiseaseState extends State<AboutDisease> {
               ListTile(
                 leading: const Icon(Icons.assignment_rounded),
                 title: const Text("Melanoma"),
-                subtitle: const Text("five"),
+                subtitle: const Text("Melanoma which means black tumor ....."),
                 onTap: () => Navigator.push(context,
                     MaterialPageRoute(builder: (context) => const Melanoma())),
                 trailing: const Icon(Icons.arrow_forward_ios),

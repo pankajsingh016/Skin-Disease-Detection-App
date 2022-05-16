@@ -15,10 +15,21 @@ class Psoriasis extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: const [
             Padding(
+                padding: EdgeInsets.all(16),
+                child: Image(image: AssetImage("assets/images/psoriasis.jpg"))),
+            Padding(
               padding: EdgeInsets.all(16),
               child: Text(
-                  "kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk"),
+                " Comming soon",
+                style: TextStyle(fontSize: 18),
+              ),
             ),
+            Padding(
+                padding: EdgeInsets.all(16),
+                child: Text(
+                  "How is Psoriasis spread?",
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                )),
           ],
         )),
         floatingActionButton: FloatingActionButton(
