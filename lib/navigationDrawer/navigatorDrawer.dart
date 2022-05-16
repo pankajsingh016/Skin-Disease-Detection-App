@@ -24,11 +24,24 @@ class NavigatorDrawer extends StatelessWidget {
             onTap: () =>
                 Navigator.pushReplacementNamed(context, PageRoutes.dodont),
           ),
+          DrawerItem(
+            icon: Icons.assignment_sharp,
+            text: 'About Diseases',
+            onTap: () =>
+                Navigator.pushReplacementNamed(context, PageRoutes.aboutdis),
+          ),
+          DrawerItem(
+            icon: Icons.assignment_ind_outlined,
+            text: 'About Us',
+            onTap: () =>
+                Navigator.pushReplacementNamed(context, PageRoutes.aboutus),
+          )
         ],
       ),
     );
   }
 
+  // ignore: non_constant_identifier_names
   Widget DrawerItem({
     //Function to show the item in the drawer
     IconData? icon,
@@ -60,8 +73,11 @@ class CreateDrawerHeader extends StatelessWidget {
       margin: EdgeInsets.zero,
       padding: EdgeInsets.zero,
       decoration: const BoxDecoration(
-        color: Colors.purple,
-      ),
+          color: Colors.purple,
+          image: DecorationImage(
+            image: AssetImage("assets/images/skindisease.jpg"),
+            fit: BoxFit.cover,
+          )),
       child: Stack(children: const [
         Positioned(
             bottom: 15,
@@ -69,7 +85,7 @@ class CreateDrawerHeader extends StatelessWidget {
             child: Text(
               "Skin Disease Detection",
               style: TextStyle(
-                  color: Colors.white,
+                  color: Color.fromARGB(255, 191, 21, 214),
                   fontSize: 20,
                   fontWeight: FontWeight.bold),
             )),

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:skin_disease_detection/routes/pageRoute.dart';
+import 'package:skin_disease_detection/screens/AboutDiseases/aboutdiseases.dart';
+import 'package:skin_disease_detection/screens/Aboutus/aboutcreaters.dart';
 import 'package:skin_disease_detection/screens/DoandDont/Doees.dart';
 import 'package:skin_disease_detection/screens/Introduction/intro.dart';
 import 'package:skin_disease_detection/screens/MainScreen/mainScreen.dart';
@@ -26,6 +28,8 @@ class MyApp extends StatelessWidget {
         PageRoutes.home: (context) => const MainScreen(),
         PageRoutes.dodont: (context) => const Dos(),
         PageRoutes.intro: (context) => const Intro(),
+        PageRoutes.aboutdis: (context) => const AboutDisease(),
+        PageRoutes.aboutus: (context) => const AboutUs(),
       },
     );
   }

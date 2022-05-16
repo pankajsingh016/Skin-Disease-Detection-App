@@ -12,7 +12,9 @@ class Dos extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        appBar: AppBar(),
+        appBar: AppBar(
+          title: const Text("Do's and Don'ts"),
+        ),
         body: SingleChildScrollView(
           child: Material(
             child: SizedBox(
@@ -20,11 +22,11 @@ class Dos extends StatelessWidget {
               child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: <Widget>[
-                    const Text(
-                      "Do's and Don't",
-                      style:
-                          TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
-                    ),
+                    // const Text(
+                    //   "Do's and Don't",
+                    //   style:
+                    //       TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+                    // ),
                     SizedBox(
                       height: MediaQuery.of(context).size.height * 0.03,
                     ),
