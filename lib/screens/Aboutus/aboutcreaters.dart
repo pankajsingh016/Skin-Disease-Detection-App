@@ -27,7 +27,7 @@ class AboutUs extends StatelessWidget {
           Padding(
             padding: EdgeInsets.only(left: 6),
             child: Text(
-              " 1. [20BCS6668] Pankaj Singh Kanyal \n 2. [20BCS6700] Karuna Rani \n",
+              " 1. [20BCS6668] Pankaj Singh Kanyal \n 2. [20BCS6700] Karuna Rani \n 3. [20BCS6697] Jatin Sharma \n 4. [20BCS6695] Manas Mishra",
               style: TextStyle(fontSize: 20),
             ),
           ),

@@ -72,7 +72,7 @@ class _AboutDiseaseState extends State<AboutDisease> {
               ListTile(
                 leading: const Icon(Icons.assignment_rounded),
                 title: const Text("Psoriasis"),
-                subtitle: const Text("six"),
+                subtitle: const Text("Psoriasis is a sking disorder ....."),
                 onTap: () => Navigator.push(context,
                     MaterialPageRoute(builder: (context) => const Psoriasis())),
                 trailing: const Icon(Icons.arrow_forward_ios),
@@ -80,7 +80,8 @@ class _AboutDiseaseState extends State<AboutDisease> {
               ListTile(
                 leading: const Icon(Icons.assignment_rounded),
                 title: const Text("Healthy Skin"),
-                subtitle: const Text("Seven"),
+                subtitle:
+                    const Text("The beauty of the skin is that you can......"),
                 onTap: () => Navigator.push(context,
                     MaterialPageRoute(builder: (context) => const Healthy())),
                 trailing: const Icon(Icons.arrow_forward_ios),
