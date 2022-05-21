@@ -29,10 +29,10 @@ them about skin diseases.
 
 ## Images
 
-Start up Image 1 | Home Screen 2
+Start up Image  | Home Screen 
 :---------------|-----------------:
 ![ss1](assets/rmeimages/ss1.jpg) | ![ss2](assets/rmeimages/ss2.jpg)
-Drawer Image 3 | Do's and Don't Page 4 :
+Drawer Image  | Do's and Don't Page  :
 ![ss3](assets/rmeimages/ss3.jpg) | ![ss4](assets/rmeimages/ss4.jpg)
 About Diseases| About Eczema
 ![ss5](assets/rmeimages/ss5.jpg)|![ss6](assets/rmeimages/ss6.jpg)
