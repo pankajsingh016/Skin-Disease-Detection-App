@@ -43,7 +43,7 @@ About Chikenpox| Result Page
 ![FlowDiagram](assets/rmeimages/FlowDiagram.jpg)
 
 ## Conclusion
-- The Application is being made by **Pankaj Singh Kanyal, Karuna,Jatin,Manas** under the supervision of **Dr Amit Garg and Miss Leeza Sharma**
+- The Application is being made by **Pankaj, Karuna, Jatin and Manas** under the supervision of **Dr Amit Garg and Miss Leeza Sharma**
 - The proposed system is able to detect the skin disease with promising results
 combining computer vision and machine learning techniques. It can be used to help
 people from all over the world and can be used in doing some productive work. The
