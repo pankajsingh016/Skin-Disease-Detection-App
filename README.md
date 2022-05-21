@@ -38,3 +38,16 @@ About Diseases| About Eczema
 ![ss5](assets/rmeimages/ss5.jpg)|![ss6](assets/rmeimages/ss6.jpg)
 About Chikenpox| Result Page
 ![ss7](assets/rmeimages/ss7.jpg)|![ss8](assets/rmeimages/ss8.jpg)
+
+## Application Fow Diagram
+![FlowDiagram](assets/rmeimages/FlowDiagram.jpg)
+
+## Conclusion
+- The Application is being made by **Pankaj Singh Kanyal, Karuna,Jatin,Manas** under the supervision of **Dr Amit Garg and Miss Leeza Sharma**
+- The proposed system is able to detect the skin disease with promising results
+combining computer vision and machine learning techniques. It can be used to help
+people from all over the world and can be used in doing some productive work. The
+tools used are free to use and are available for the user, hence, the system can be
+deployed free of cost. The application developed is moderately-weight and can be
+used in machines with descent system specifications. It has also a simple user
+interface for the convenience of the user. The image processing and machine learningalgorithms weresuccessfully implemented.
